@@ -1,5 +1,5 @@
 
-  .il4ar {
+  .rw0qe {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     justify-content: center;
   }
 
-  .il4artitlebodylang {
+  .rw0qetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .il4artitlebodylang ul {
+  .rw0qetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .il4artitle {
+  .rw0qetitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  .il4artitlebody {
+  .rw0qetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -33,7 +33,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .il4arbody {
+  .rw0qebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .il4armenu {
+  .rw0qemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .il4armenulist {
+  .rw0qemenulist {
     width: calc(100% - 20px);
     background-color: #0080c0;
     padding: 10px;
@@ -57,7 +57,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .il4armenulist ul {
+  .rw0qemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -67,7 +67,7 @@
     overflow-x: auto;
   }
 
-  .il4armenulist ul a {
+  .rw0qemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -79,18 +79,18 @@
     white-space: nowrap;
   }
 
-  .il4armenulist ul a:hover {
+  .rw0qemenulist ul a:hover {
     background-color: #e0e0e0;
     color: #000;
     cursor: pointer;
   }
 
-  .il4ar-menu-active {
+  .rw0qe-menu-active {
     background-color: #e0e0e0;
     color: #000 !important;
   }
 
-  .il4armenucontact {
+  .rw0qemenucontact {
     background-color: #00aaff76;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     float: right;
   }
 
-  .il4armenucontacttitle {
+  .rw0qemenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -108,28 +108,28 @@
     flex-grow: 1;
   }
 
-  .il4armenulistbody {
+  .rw0qemenulistbody {
     width: 100%;
   }
 
   @media screen and (max-width: 1024px) {
-    .il4armenu {
+    .rw0qemenu {
       overflow-x: auto;
     }
 
-    .il4armenulist ul {
+    .rw0qemenulist ul {
       flex-direction: row;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .il4armenulist ul a {
+    .rw0qemenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .jzavc {
+  .xvakr {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -137,13 +137,13 @@
     justify-content: center;
     position: relative;
   }
-  .jzavccontainertitle {
+  .xvakrcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .jzavccontainerlist {
+  .xvakrcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -151,23 +151,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .jzavccontainerlist > div {
+  .xvakrcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .jzavccontainerlist:hover {
+  .xvakrcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .jzavccontainer {
+  .xvakrcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .jzavccontainerbody {
+  .xvakrcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -176,24 +176,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .jzavcbody {
+  .xvakrbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .jzavccontainerlist > span {
+  .xvakrcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .jzavcbody {
+    .xvakrbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .jzavccontainerbody {
+    .xvakrcontainerbody {
       padding: 15px;
     }
   }
@@ -223,13 +223,13 @@
       transform: scale(1);
     }
   }
-  .digyd-body {
+  .vbwoc-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .digyd-body-chile {
+  .vbwoc-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -237,10 +237,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .digyd-body-chile > div {
+  .vbwoc-body-chile > div {
     width: 100% !important;
   }
-  .digyd2 {
+  .vbwoc2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -251,21 +251,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .digyd {
+  .vbwoc {
     display: flex;
     flex-direction: column;
   }
-  .digyd > svg {
+  .vbwoc > svg {
     width: 100vw;
   }
-  .digydbotton {
+  .vbwocbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .digyd-svg {
+  .vbwoc-svg {
     fill: #fff;
   }
-  .digyd-bg {
+  .vbwoc-bg {
     background-image: url("/img/bcsrms/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

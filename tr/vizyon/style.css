@@ -1,5 +1,5 @@
 
-  .z2x0p {
+  .x41kh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     justify-content: center;
   }
 
-  .z2x0ptitlebodylang {
+  .x41khtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .z2x0ptitlebodylang ul {
+  .x41khtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .z2x0ptitle {
+  .x41khtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  .z2x0ptitlebody {
+  .x41khtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -33,7 +33,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .z2x0pbody {
+  .x41khbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .z2x0pmenu {
+  .x41khmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .z2x0pmenulist {
+  .x41khmenulist {
     width: calc(100% - 20px);
     background-color: #0080c0;
     padding: 10px;
@@ -57,7 +57,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .z2x0pmenulist ul {
+  .x41khmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -67,7 +67,7 @@
     overflow-x: auto;
   }
 
-  .z2x0pmenulist ul a {
+  .x41khmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -79,18 +79,18 @@
     white-space: nowrap;
   }
 
-  .z2x0pmenulist ul a:hover {
+  .x41khmenulist ul a:hover {
     background-color: #e0e0e0;
     color: #000;
     cursor: pointer;
   }
 
-  .z2x0p-menu-active {
+  .x41kh-menu-active {
     background-color: #e0e0e0;
     color: #000 !important;
   }
 
-  .z2x0pmenucontact {
+  .x41khmenucontact {
     background-color: #00aaff76;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     float: right;
   }
 
-  .z2x0pmenucontacttitle {
+  .x41khmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -108,22 +108,22 @@
     flex-grow: 1;
   }
 
-  .z2x0pmenulistbody {
+  .x41khmenulistbody {
     width: 100%;
   }
 
   @media screen and (max-width: 1024px) {
-    .z2x0pmenu {
+    .x41khmenu {
       overflow-x: auto;
     }
 
-    .z2x0pmenulist ul {
+    .x41khmenulist ul {
       flex-direction: row;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .z2x0pmenulist ul a {
+    .x41khmenulist ul a {
       font-size: 14px;
     }
   }
@@ -132,13 +132,13 @@
   #content {
     justify-content: start;
   }
-  .udj6a {
+  .rdjqv {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .udj6a-menu {
+  .rdjqv-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -148,7 +148,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .udj6a-menu > a {
+  .rdjqv-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -156,18 +156,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .udj6a-menu > a:hover,
-  .udj6a-menu > .active {
+  .rdjqv-menu > a:hover,
+  .rdjqv-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .udj6a-body {
+  .rdjqv-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .udj6a-title {
+  .rdjqv-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -179,7 +179,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .udj6a-title::before {
+  .rdjqv-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -193,21 +193,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .udj6a-title span {
+  .rdjqv-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .udj6a {
+    .rdjqv {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .udj6a-menu {
+    .rdjqv-menu {
       display: none;
     }
-    .udj6a-body {
+    .rdjqv-body {
       width: 100%;
     }
   }

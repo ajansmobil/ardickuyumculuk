@@ -1,5 +1,5 @@
 
-  .e62b8 {
+  .o1zte {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     justify-content: center;
   }
 
-  .e62b8titlebodylang {
+  .o1ztetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .e62b8titlebodylang ul {
+  .o1ztetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .e62b8title {
+  .o1ztetitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  .e62b8titlebody {
+  .o1ztetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -33,7 +33,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .e62b8body {
+  .o1ztebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .e62b8menu {
+  .o1ztemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .e62b8menulist {
+  .o1ztemenulist {
     width: calc(100% - 20px);
     background-color: #0080c0;
     padding: 10px;
@@ -57,7 +57,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .e62b8menulist ul {
+  .o1ztemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -67,7 +67,7 @@
     overflow-x: auto;
   }
 
-  .e62b8menulist ul a {
+  .o1ztemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -79,18 +79,18 @@
     white-space: nowrap;
   }
 
-  .e62b8menulist ul a:hover {
+  .o1ztemenulist ul a:hover {
     background-color: #e0e0e0;
     color: #000;
     cursor: pointer;
   }
 
-  .e62b8-menu-active {
+  .o1zte-menu-active {
     background-color: #e0e0e0;
     color: #000 !important;
   }
 
-  .e62b8menucontact {
+  .o1ztemenucontact {
     background-color: #00aaff76;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     float: right;
   }
 
-  .e62b8menucontacttitle {
+  .o1ztemenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -108,22 +108,22 @@
     flex-grow: 1;
   }
 
-  .e62b8menulistbody {
+  .o1ztemenulistbody {
     width: 100%;
   }
 
   @media screen and (max-width: 1024px) {
-    .e62b8menu {
+    .o1ztemenu {
       overflow-x: auto;
     }
 
-    .e62b8menulist ul {
+    .o1ztemenulist ul {
       flex-direction: row;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .e62b8menulist ul a {
+    .o1ztemenulist ul a {
       font-size: 14px;
     }
   }

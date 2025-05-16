@@ -1,5 +1,5 @@
 
-  .lfmfp {
+  .c1adh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     justify-content: center;
   }
 
-  .lfmfptitlebodylang {
+  .c1adhtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .lfmfptitlebodylang ul {
+  .c1adhtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .lfmfptitle {
+  .c1adhtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  .lfmfptitlebody {
+  .c1adhtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -33,7 +33,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .lfmfpbody {
+  .c1adhbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .lfmfpmenu {
+  .c1adhmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .lfmfpmenulist {
+  .c1adhmenulist {
     width: calc(100% - 20px);
     background-color: #0080c0;
     padding: 10px;
@@ -57,7 +57,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .lfmfpmenulist ul {
+  .c1adhmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -67,7 +67,7 @@
     overflow-x: auto;
   }
 
-  .lfmfpmenulist ul a {
+  .c1adhmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -79,18 +79,18 @@
     white-space: nowrap;
   }
 
-  .lfmfpmenulist ul a:hover {
+  .c1adhmenulist ul a:hover {
     background-color: #e0e0e0;
     color: #000;
     cursor: pointer;
   }
 
-  .lfmfp-menu-active {
+  .c1adh-menu-active {
     background-color: #e0e0e0;
     color: #000 !important;
   }
 
-  .lfmfpmenucontact {
+  .c1adhmenucontact {
     background-color: #00aaff76;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     float: right;
   }
 
-  .lfmfpmenucontacttitle {
+  .c1adhmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -108,22 +108,22 @@
     flex-grow: 1;
   }
 
-  .lfmfpmenulistbody {
+  .c1adhmenulistbody {
     width: 100%;
   }
 
   @media screen and (max-width: 1024px) {
-    .lfmfpmenu {
+    .c1adhmenu {
       overflow-x: auto;
     }
 
-    .lfmfpmenulist ul {
+    .c1adhmenulist ul {
       flex-direction: row;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .lfmfpmenulist ul a {
+    .c1adhmenulist ul a {
       font-size: 14px;
     }
   }
