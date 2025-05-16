@@ -1,5 +1,5 @@
 
-  .raiag {
+  .b5q08 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .raiagtitle {
+  .b5q08title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .raiagtitlebody {
+  .b5q08titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .raiagtitlebodytitle {
+  .b5q08titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .raiagtitlebodylang {
+  .b5q08titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .raiagtitlebodylang ul {
+  .b5q08titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .raiagbody {
+  .b5q08body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .raiagmenu {
+  .b5q08menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .raiagmenulist {
+  .b5q08menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .raiagmenubody {
+  .b5q08menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .raiagmenulist ul {
+  .b5q08menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .raiagmenulist ul a {
+  .b5q08menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .raiagmenulist ul a:hover {
+  .b5q08menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .raiagmenulistactive {
+  .b5q08menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .raiagmenulistbody {
+  .b5q08menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .raiagbodylogo {
+    .b5q08bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .raiagmenu {
+    .b5q08menu {
       overflow-x: auto;
     }
 
-    .raiagmenulist ul {
+    .b5q08menulist ul {
       flex-direction: row;
     }
 
-    .raiagbodylogo {
+    .b5q08bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,43 @@
   }
 
   @media screen and (max-width: 768px) {
-    .raiagmenulist ul a {
+    .b5q08menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .h24a3 {
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .ic3wi {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -151,13 +181,13 @@
     justify-content: center;
     position: relative;
   }
-  .h24a3containertitle {
+  .ic3wicontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .h24a3containerlist {
+  .ic3wicontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +195,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .h24a3containerlist > div {
+  .ic3wicontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .h24a3containerlist:hover {
+  .ic3wicontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .h24a3container {
+  .ic3wicontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .h24a3containerbody {
+  .ic3wicontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +220,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .h24a3body {
+  .ic3wibody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .h24a3containerlist > span {
+  .ic3wicontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .h24a3body {
+    .ic3wibody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .h24a3containerbody {
+    .ic3wicontainerbody {
       padding: 15px;
     }
   }
@@ -237,13 +267,13 @@
       transform: scale(1);
     }
   }
-  .h08e2-body {
+  .e6nld-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .h08e2-body-chile {
+  .e6nld-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +281,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .h08e2-body-chile > div {
+  .e6nld-body-chile > div {
     width: 100% !important;
   }
-  .h08e22 {
+  .e6nld2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +295,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .h08e2 {
+  .e6nld {
     display: flex;
     flex-direction: column;
   }
-  .h08e2 > svg {
+  .e6nld > svg {
     width: 100vw;
   }
-  .h08e2botton {
+  .e6nldbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .h08e2-svg {
+  .e6nld-svg {
     fill: #fff;
   }
-  .h08e2-bg {
+  .e6nld-bg {
     background-image: url("/img/bcsrms/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

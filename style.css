@@ -1,5 +1,5 @@
 
-  .ocqzy {
+  .o3sam {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ocqzytitle {
+  .o3samtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ocqzytitlebody {
+  .o3samtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ocqzytitlebodytitle {
+  .o3samtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ocqzytitlebodylang {
+  .o3samtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ocqzytitlebodylang ul {
+  .o3samtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ocqzybody {
+  .o3sambody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ocqzymenu {
+  .o3sammenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ocqzymenulist {
+  .o3sammenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ocqzymenubody {
+  .o3sammenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ocqzymenulist ul {
+  .o3sammenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ocqzymenulist ul a {
+  .o3sammenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ocqzymenulist ul a:hover {
+  .o3sammenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ocqzymenulistactive {
+  .o3sammenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ocqzymenulistbody {
+  .o3sammenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ocqzybodylogo {
+    .o3sambodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ocqzymenu {
+    .o3sammenu {
       overflow-x: auto;
     }
 
-    .ocqzymenulist ul {
+    .o3sammenulist ul {
       flex-direction: row;
     }
 
-    .ocqzybodylogo {
+    .o3sambodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,43 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ocqzymenulist ul a {
+    .o3sammenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .ixd5p {
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .bzvfr {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -151,13 +181,13 @@
     justify-content: center;
     position: relative;
   }
-  .ixd5pcontainertitle {
+  .bzvfrcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .ixd5pcontainerlist {
+  .bzvfrcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +195,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .ixd5pcontainerlist > div {
+  .bzvfrcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .ixd5pcontainerlist:hover {
+  .bzvfrcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .ixd5pcontainer {
+  .bzvfrcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .ixd5pcontainerbody {
+  .bzvfrcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +220,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .ixd5pbody {
+  .bzvfrbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .ixd5pcontainerlist > span {
+  .bzvfrcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .ixd5pbody {
+    .bzvfrbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .ixd5pcontainerbody {
+    .bzvfrcontainerbody {
       padding: 15px;
     }
   }
@@ -237,13 +267,13 @@
       transform: scale(1);
     }
   }
-  .a21qq-body {
+  .q74pw-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .a21qq-body-chile {
+  .q74pw-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +281,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .a21qq-body-chile > div {
+  .q74pw-body-chile > div {
     width: 100% !important;
   }
-  .a21qq2 {
+  .q74pw2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +295,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .a21qq {
+  .q74pw {
     display: flex;
     flex-direction: column;
   }
-  .a21qq > svg {
+  .q74pw > svg {
     width: 100vw;
   }
-  .a21qqbotton {
+  .q74pwbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .a21qq-svg {
+  .q74pw-svg {
     fill: #fff;
   }
-  .a21qq-bg {
+  .q74pw-bg {
     background-image: url("/img/bcsrms/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
