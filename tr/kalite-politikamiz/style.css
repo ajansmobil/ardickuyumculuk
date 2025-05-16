@@ -1,5 +1,5 @@
 
-  .da17b {
+  .ubiq0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .da17btitle {
+  .ubiq0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .da17btitlebody {
+  .ubiq0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .da17btitlebodytitle {
+  .ubiq0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .da17btitlebodylang {
+  .ubiq0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .da17btitlebodylang ul {
+  .ubiq0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .da17bbody {
+  .ubiq0body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .da17bmenu {
+  .ubiq0menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .da17bmenulist {
+  .ubiq0menulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .da17bmenubody {
+  .ubiq0menubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .da17bmenulist ul {
+  .ubiq0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .da17bmenulist ul a {
+  .ubiq0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .da17bmenulist ul a:hover {
+  .ubiq0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .da17bmenulistactive {
+  .ubiq0menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .da17bmenulistbody {
+  .ubiq0menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .da17bbodylogo {
+    .ubiq0bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .da17bmenu {
+    .ubiq0menu {
       overflow-x: auto;
     }
 
-    .da17bmenulist ul {
+    .ubiq0menulist ul {
       flex-direction: row;
     }
 
-    .da17bbodylogo {
+    .ubiq0bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .da17bmenulist ul a {
+    .ubiq0menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ef0zi {
+  .irgui {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ef0zi-menu {
+  .irgui-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ef0zi-menu > a {
+  .irgui-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ef0zi-menu > a:hover,
-  .ef0zi-menu > .active {
+  .irgui-menu > a:hover,
+  .irgui-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ef0zi-body {
+  .irgui-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ef0zi-title {
+  .irgui-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ef0zi-title::before {
+  .irgui-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ef0zi-title span {
+  .irgui-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ef0zi {
+    .irgui {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ef0zi-menu {
+    .irgui-menu {
       display: none;
     }
-    .ef0zi-body {
+    .irgui-body {
       width: 100%;
     }
   }
