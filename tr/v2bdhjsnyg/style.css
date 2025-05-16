@@ -1,5 +1,5 @@
 
-  .sxevx {
+  .pimdx {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     justify-content: center;
   }
 
-  .sxevxtitlebodylang {
+  .pimdxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sxevxtitlebodylang ul {
+  .pimdxtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sxevxtitle {
+  .pimdxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  .sxevxtitlebody {
+  .pimdxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -33,7 +33,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sxevxbody {
+  .pimdxbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sxevxmenu {
+  .pimdxmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sxevxmenulist {
+  .pimdxmenulist {
     width: calc(100% - 20px);
     background-color: #0080c0;
     padding: 10px;
@@ -57,7 +57,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sxevxmenulist ul {
+  .pimdxmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -67,7 +67,7 @@
     overflow-x: auto;
   }
 
-  .sxevxmenulist ul a {
+  .pimdxmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -79,18 +79,18 @@
     white-space: nowrap;
   }
 
-  .sxevxmenulist ul a:hover {
+  .pimdxmenulist ul a:hover {
     background-color: #e0e0e0;
     color: #000;
     cursor: pointer;
   }
 
-  .sxevx-menu-active {
+  .pimdx-menu-active {
     background-color: #e0e0e0;
     color: #000 !important;
   }
 
-  .sxevxmenucontact {
+  .pimdxmenucontact {
     background-color: #00aaff76;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     float: right;
   }
 
-  .sxevxmenucontacttitle {
+  .pimdxmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -108,22 +108,22 @@
     flex-grow: 1;
   }
 
-  .sxevxmenulistbody {
+  .pimdxmenulistbody {
     width: 100%;
   }
 
   @media screen and (max-width: 1024px) {
-    .sxevxmenu {
+    .pimdxmenu {
       overflow-x: auto;
     }
 
-    .sxevxmenulist ul {
+    .pimdxmenulist ul {
       flex-direction: row;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .sxevxmenulist ul a {
+    .pimdxmenulist ul a {
       font-size: 14px;
     }
   }
