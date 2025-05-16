@@ -1,0 +1,3 @@
+User-agent: *
+  Disallow:
+  Sitemap: https://ardickuyumculuk.com.tr/map.xml
