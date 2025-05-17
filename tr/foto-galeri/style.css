@@ -1,5 +1,5 @@
 
-  .g59na {
+  .yo8v0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .g59natitle {
+  .yo8v0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .g59natitlebody {
+  .yo8v0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .g59natitlebodytitle {
+  .yo8v0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .g59natitlebodylang {
+  .yo8v0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .g59natitlebodylang ul {
+  .yo8v0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .g59nabody {
+  .yo8v0body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .g59namenu {
+  .yo8v0menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .g59namenulist {
+  .yo8v0menulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .g59namenubody {
+  .yo8v0menubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .g59namenulist ul {
+  .yo8v0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .g59namenulist ul a {
+  .yo8v0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .g59namenulist ul a:hover {
+  .yo8v0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .g59namenulistactive {
+  .yo8v0menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .g59namenulistbody {
+  .yo8v0menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .g59nabodylogo {
+    .yo8v0bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .g59namenu {
+    .yo8v0menu {
       overflow-x: auto;
     }
 
-    .g59namenulist ul {
+    .yo8v0menulist ul {
       flex-direction: row;
     }
 
-    .g59nabodylogo {
+    .yo8v0bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,27 +137,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .g59namenulist ul a {
+    .yo8v0menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .szsb6 {
+  .ujhjp {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .szsb6body {
+  .ujhjpbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .szsb6bodyitem {
+  .ujhjpbodyitem {
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 12px;
@@ -173,23 +173,23 @@
     transition: all 0.3s ease;
   }
 
-  .szsb6bodyitem:hover {
+  .ujhjpbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .szsb6bodyitem:hover .szsb6bodyitemimg {
+  .ujhjpbodyitem:hover .ujhjpbodyitemimg {
     transform: scale(1.1);
   }
 
-  .szsb6bodyitemimg {
+  .ujhjpbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .szsb6bodyitemtitle {
+  .ujhjpbodyitemtitle {
     padding: 8px;
     background-color: #e5e5e5;
     text-align: center;
@@ -199,7 +199,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .szsb6body {
+    .ujhjpbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -208,7 +208,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .szsb6body {
+    .ujhjpbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
