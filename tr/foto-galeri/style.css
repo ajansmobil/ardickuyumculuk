@@ -1,5 +1,5 @@
 
-  .xwzxl {
+  .hnweb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .xwzxltitle {
+  .hnwebtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .xwzxltitlebody {
+  .hnwebtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xwzxltitlebodytitle {
+  .hnwebtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xwzxltitlebodylang {
+  .hnwebtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xwzxltitlebodylang ul {
+  .hnwebtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xwzxlbody {
+  .hnwebbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .xwzxlmenu {
+  .hnwebmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xwzxlmenulist {
+  .hnwebmenulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .xwzxlmenubody {
+  .hnwebmenubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .xwzxlmenulist ul {
+  .hnwebmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .xwzxlmenulist ul a {
+  .hnwebmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .xwzxlmenulist ul a:hover {
+  .hnwebmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .xwzxlmenulistactive {
+  .hnwebmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .xwzxlmenulistbody {
+  .hnwebmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .xwzxlbodylogo {
+    .hnwebbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xwzxlmenu {
+    .hnwebmenu {
       overflow-x: auto;
     }
 
-    .xwzxlmenulist ul {
+    .hnwebmenulist ul {
       flex-direction: row;
     }
 
-    .xwzxlbodylogo {
+    .hnwebbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,27 +137,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xwzxlmenulist ul a {
+    .hnwebmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .mafhe {
+  .k34kq {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .mafhebody {
+  .k34kqbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .mafhebodyitem {
+  .k34kqbodyitem {
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 12px;
@@ -173,23 +173,23 @@
     transition: all 0.3s ease;
   }
 
-  .mafhebodyitem:hover {
+  .k34kqbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .mafhebodyitem:hover .mafhebodyitemimg {
+  .k34kqbodyitem:hover .k34kqbodyitemimg {
     transform: scale(1.1);
   }
 
-  .mafhebodyitemimg {
+  .k34kqbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .mafhebodyitemtitle {
+  .k34kqbodyitemtitle {
     padding: 8px;
     background-color: #e5e5e5;
     text-align: center;
@@ -199,7 +199,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mafhebody {
+    .k34kqbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -208,7 +208,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mafhebody {
+    .k34kqbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
