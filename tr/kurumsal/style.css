@@ -1,5 +1,5 @@
 
-  .cqouw {
+  .qtag1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .cqouwtitle {
+  .qtag1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .cqouwtitlebody {
+  .qtag1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .cqouwtitlebodytitle {
+  .qtag1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .cqouwtitlebodylang {
+  .qtag1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .cqouwtitlebodylang ul {
+  .qtag1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .cqouwbody {
+  .qtag1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .cqouwmenu {
+  .qtag1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .cqouwmenulist {
+  .qtag1menulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .cqouwmenubody {
+  .qtag1menubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .cqouwmenulist ul {
+  .qtag1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .cqouwmenulist ul a {
+  .qtag1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .cqouwmenulist ul a:hover {
+  .qtag1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .cqouwmenulistactive {
+  .qtag1menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .cqouwmenulistbody {
+  .qtag1menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .cqouwbodylogo {
+    .qtag1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .cqouwmenu {
+    .qtag1menu {
       overflow-x: auto;
     }
 
-    .cqouwmenulist ul {
+    .qtag1menulist ul {
       flex-direction: row;
     }
 
-    .cqouwbodylogo {
+    .qtag1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .cqouwmenulist ul a {
+    .qtag1menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .nmbx3 {
+  .tgcos {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .nmbx3-menu {
+  .tgcos-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .nmbx3-menu > a {
+  .tgcos-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .nmbx3-menu > a:hover,
-  .nmbx3-menu > .active {
+  .tgcos-menu > a:hover,
+  .tgcos-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .nmbx3-body {
+  .tgcos-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .nmbx3-title {
+  .tgcos-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .nmbx3-title::before {
+  .tgcos-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .nmbx3-title span {
+  .tgcos-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .nmbx3 {
+    .tgcos {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .nmbx3-menu {
+    .tgcos-menu {
       display: none;
     }
-    .nmbx3-body {
+    .tgcos-body {
       width: 100%;
     }
   }
