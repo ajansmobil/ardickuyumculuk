@@ -1,5 +1,5 @@
 
-  .ubuyp {
+  .wa4bg {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ubuyptitle {
+  .wa4bgtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ubuyptitlebody {
+  .wa4bgtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ubuyptitlebodytitle {
+  .wa4bgtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ubuyptitlebodylang {
+  .wa4bgtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ubuyptitlebodylang ul {
+  .wa4bgtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ubuypbody {
+  .wa4bgbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ubuypmenu {
+  .wa4bgmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ubuypmenulist {
+  .wa4bgmenulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ubuypmenubody {
+  .wa4bgmenubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ubuypmenulist ul {
+  .wa4bgmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ubuypmenulist ul a {
+  .wa4bgmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ubuypmenulist ul a:hover {
+  .wa4bgmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ubuypmenulistactive {
+  .wa4bgmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ubuypmenulistbody {
+  .wa4bgmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ubuypbodylogo {
+    .wa4bgbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ubuypmenu {
+    .wa4bgmenu {
       overflow-x: auto;
     }
 
-    .ubuypmenulist ul {
+    .wa4bgmenulist ul {
       flex-direction: row;
     }
 
-    .ubuypbodylogo {
+    .wa4bgbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ubuypmenulist ul a {
+    .wa4bgmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .z2vuz {
+  .uyrr1 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .z2vuz-menu {
+  .uyrr1-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .z2vuz-menu > a {
+  .uyrr1-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .z2vuz-menu > a:hover,
-  .z2vuz-menu > .active {
+  .uyrr1-menu > a:hover,
+  .uyrr1-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .z2vuz-body {
+  .uyrr1-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .z2vuz-title {
+  .uyrr1-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .z2vuz-title::before {
+  .uyrr1-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .z2vuz-title span {
+  .uyrr1-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .z2vuz {
+    .uyrr1 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .z2vuz-menu {
+    .uyrr1-menu {
       display: none;
     }
-    .z2vuz-body {
+    .uyrr1-body {
       width: 100%;
     }
   }

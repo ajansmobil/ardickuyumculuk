@@ -1,5 +1,5 @@
 
-  .ujeoc {
+  .g5d11 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ujeoctitle {
+  .g5d11title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ujeoctitlebody {
+  .g5d11titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ujeoctitlebodytitle {
+  .g5d11titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ujeoctitlebodylang {
+  .g5d11titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ujeoctitlebodylang ul {
+  .g5d11titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ujeocbody {
+  .g5d11body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ujeocmenu {
+  .g5d11menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ujeocmenulist {
+  .g5d11menulist {
     width: calc(100% - 20px);
     background-color: #745f2d;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ujeocmenubody {
+  .g5d11menubody {
     width: 100%;
     background-color: #745f2d;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ujeocmenulist ul {
+  .g5d11menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ujeocmenulist ul a {
+  .g5d11menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ujeocmenulist ul a:hover {
+  .g5d11menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ujeocmenulistactive {
+  .g5d11menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ujeocmenulistbody {
+  .g5d11menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ujeocbodylogo {
+    .g5d11bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ujeocmenu {
+    .g5d11menu {
       overflow-x: auto;
     }
 
-    .ujeocmenulist ul {
+    .g5d11menulist ul {
       flex-direction: row;
     }
 
-    .ujeocbodylogo {
+    .g5d11bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,27 +137,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ujeocmenulist ul a {
+    .g5d11menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .vcmlw {
+  .z1nui {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .vcmlwbody {
+  .z1nuibody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .vcmlwbodyitem {
+  .z1nuibodyitem {
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 12px;
@@ -173,23 +173,23 @@
     transition: all 0.3s ease;
   }
 
-  .vcmlwbodyitem:hover {
+  .z1nuibodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .vcmlwbodyitem:hover .vcmlwbodyitemimg {
+  .z1nuibodyitem:hover .z1nuibodyitemimg {
     transform: scale(1.1);
   }
 
-  .vcmlwbodyitemimg {
+  .z1nuibodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .vcmlwbodyitemtitle {
+  .z1nuibodyitemtitle {
     padding: 8px;
     background-color: #e5e5e5;
     text-align: center;
@@ -199,7 +199,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .vcmlwbody {
+    .z1nuibody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -208,7 +208,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vcmlwbody {
+    .z1nuibody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
